@@ -1,0 +1,212 @@
+{
+  "en": {
+    "header": {
+      "menu": {
+        "people":"People",
+        "home": "Home",
+        "about": "About",
+        "contact": "Contacts"
+      }
+    },
+    "home": {
+      "topSection": {
+        "slide0": {
+          "span": "Smart solutions need creative lawyers",
+          "title": "You Deserve best service",
+          "btn": "get in touch"
+        },
+        "slide1": {
+          "span": "Smart solutions need creative lawyers",
+          "title": "You Deserve best service",
+          "btn": "get in touch"
+        },
+        "slide2": {
+          "span": "Smart solutions needs creative lawyers",
+          "title": "You Deserve best service",
+          "btn": "get in touch"
+        },
+        "slide3": {
+          "span": "Leading Criminal Defense Lawyer Team",
+          "title": "You Deserve best service",
+          "btn": "get in touch"
+        }
+      },
+      "btns": {
+        "app": {
+          "span": "book an",
+          "text": "appointment"
+        },
+        "ev": {
+          "span": "get free case",
+          "text": "evaluation"
+        },
+        "pay": {
+          "span": "Log in",
+          "text": "online"
+        }
+      },
+      "brief": {
+        "content": {
+          "title": "Why you need creative solutions to reach your goal?",
+          "firstContent": {
+            "firstLetter": "N",
+            "content": "DM is an international law firm that serves individuals,companies, governments and financial institutions. Our long history as a global firm means we are uniquely placed to help our clients resolve"
+          },
+          "secondContent": "their most complex legal challenges wherever they are. We put our clients first and we are always responsive to your needs, priorities and pressures. We understand your perspective and show that we think and care about your concerns as much as you do."
+        }
+      },
+      "practiceAreas": {
+        "content": {
+          "title": "Practice Areas",
+          "brief": "We are agile, inventive and determined to navigate our clients through today's complex business environment. We look for approaches that might not be obvious to find original solutions.",
+          "list1": {
+            "1": "Business & Corprate Law",
+            "2": "Commercial & Real Estate",
+            "3": "Immigration & Labor",
+            "4": "Litigation & Arbitration",
+            "5": "Procedural  & Civil Law",
+            "6": "Intellectual Property ",
+            "7": "Consumer Protection ",
+            "8": "Family Law "
+          },
+          "list2": {
+            "9": "Taxation",
+            "10": "International Law",
+            "11": "Banking & Finance",
+            "12": "Health Registrations",
+            "13": "Legal Auctions perchases",
+            "14": "Offshore Legal services",
+            "15": "Other Practice Areas",
+            "16": "Criminal Law"
+          }
+        }
+      },
+      "mid": {
+        "images": {
+          "image1": "",
+          "emptyString": "",
+          "image2": ""
+        },
+        "content": {
+          "span1": "call us 24/7",
+          "phone": "+(507) 8302656 & + 1 678 999 2694",
+          "span2": "OR",
+          "h4": "Schedule a Free Consultation",
+          "btn": "make an appointment"
+        }
+      },
+      "bottom": {
+        "quote": {
+          "title": "Why clients are our priority?",
+          "content": "We apply our global knowledge to our clients' needs. In an increasingly interconnected world, you look to us to combine an international perspective with local insight to help resolve your  challenges.",
+          "author": "by Melva Herrera De Lici , Founder"
+        }
+      },
+      "associates": [
+        {
+          "photo": "nisim.jpg",
+          "name": "Nisim",
+          "lastname": "Lici", 
+          "title":"Fundador de la Firma", 
+          "experties": "Especialista en Relaciones de Derecho Internacional y Economía"
+        },
+        {
+          "photo": "melva.png",
+          "name": "Melva",
+          "lastname": "Herrera de Lici", 
+          "title":"Socia de la Firma", 
+          "experties": "Especialista en Derecho Procesal Civil y Derecho Corporativo"
+        },
+        {
+          "photo": "amarelis.jpg",
+          "name": "Amarilis",
+          "lastname": "Chavez Atencio", 
+          "title":"Socia de la Firma", 
+          "experties": "Especialista en Derecho de Familia"
+        },
+        {
+          "photo": "daniela.jpg",
+          "name": "Daniela",
+          "lastname": "Marcos de Paredes", 
+          "title":"Asociada de la Firma", 
+          "experties": "Especialista en Derecho bancario y Registro Público"
+        },
+        {
+          "photo": "oliver.jpg",
+          "name": "Oliver",
+          "lastname": "Chacon Garcia", 
+          "title":"Asociado de la Firma", 
+          "experties": "Especialista en Derecho Comercial y Derecho de Propiedad Horizontal"
+        },
+        {
+          "photo": "francisco.png",
+          "name": "Francisco",
+          "lastname": "Castillo Buenaño", 
+          "title":"Asociado de la Firma", 
+          "experties": "Especialista en Derecho Procesal Penal"
+        },
+        {
+          "photo": "ismael.png",
+          "name": "Ismael",
+          "lastname": "Barrios Arcia", 
+          "title":"Asociado de la Firma", 
+          "experties": "Especialista en Derecho Laboral"
+        },
+        {
+          "photo": "mathew.jpg",
+          "name": "Mathew",
+          "lastname": "Morris", 
+          "title":"Miembro Internacional", 
+          "experties": "Los Ángeles, California"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Our Contacts",
+      "brief": "We have world-class, flexible support via chat, email, and phone. We guarantee that you’ll be able to have any issue resolved within 24 hours. You can contact our support immediately here.",
+      "lblPhone": "Phones",
+      "phone": "+(507) 830 2656",
+      "fax": "+(597) 830 2655",
+      "lblEmail": "Email",
+      "email": "info@ndm.com.pa",
+      "lblAddress": "Address",
+      "brand1": "Panama City",
+      "brand2": "Playa Venado",
+      "address1": "Oceania Business Plaza, Torre 1000, 15th floor, Office 15-C1",
+      "address2": "Playa Venado God knows where"
+    },
+    "forms": {
+      "contact": {
+        "title": "Book An Apointment",
+        "brief": "We have world-class, flexible support via chat, email, and phone.",
+        "lblName": "Full Name",
+        "lblPhone": "Phones",
+        "lblEmail": "Email",
+        "lblContent": "Reason",
+        "btnClose": "Close",
+        "btnCancel": "Cancel",
+        "btnSubmit": "Submit",
+        "success": "Thanks!",
+        "error": "Ooops! There was an error."
+      },
+      "info": {
+        "title": "Get A Free Evaluation",
+        "brief": "We have world-class, flexible support via chat, email, and phone.",
+        "lblName": "Full Name",
+        "lblPhone": "Phones",
+        "lblEmail": "Email",
+        "lblContent": "Reason",
+        "btnClose": "Close",
+        "btnCancel": "Cancel",
+        "btnSubmit": "Submit",
+        "success": "Thanks!",
+        "error": "Ooops! There was an error."
+      }
+    },
+    "footer": {
+      "termCodition": "Terms and Coditions",
+      "policy": "Privacy Policy",
+      "reserved": "All rights reserved."
+    }
+  }
+}
