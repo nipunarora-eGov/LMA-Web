@@ -34,7 +34,7 @@ const ContactIcon = () => (
   </svg>
 );
 
-const BrandLogo = () => (
+const BrandLogo = ({onClick,className}) => (
   <svg
     version="1.1"
     id="Layer_1"
@@ -44,9 +44,13 @@ const BrandLogo = () => (
     width="100%"
     viewBox="0 0 4406 1277"
     enable-background="new 0 0 4406 1277"
+		style={{width:"12rem"}}
+		onClick={onClick}
+		className={className}
   >
     <path
       fill="#FFFFFF"
+			style={{opacity:"0"}}
       opacity="1.000000"
       stroke="none"
       d="

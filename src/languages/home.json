@@ -5,7 +5,7 @@
         "people":"People",
         "home": "Home",
         "about": "About",
-        "contact": "Contacts"
+        "contact": "Contact"
       }
     },
     "home": {
@@ -168,7 +168,7 @@
       "phone": "+(507) 830 2656",
       "fax": "+(597) 830 2655",
       "lblEmail": "Email",
-      "email": "info@ndm.com.pa",
+      "email": "info.lawmenalliance@gmail.com",
       "lblAddress": "Address",
       "brand1": "Panama City",
       "brand2": "Playa Venado",

@@ -9,7 +9,7 @@ const AssociatesContainer = ({ content }) => {
   const associates = content.map((obj) => <Associate data={obj} key={obj.name} />);
 
   return (
-    <section className="associates-area">
+    <section className="associates-area" id="associates-goto">
       {associates}
     </section>
   );

@@ -146,7 +146,9 @@ menu {
 
   .brand-logo {
     padding: 5px 0;
-
+    &:hover{
+      cursor: pointer;
+    }
     img {
       max-width: 250px;
       width: 20vw;
@@ -178,11 +180,17 @@ menu {
       border-top: $border-header-active;
       padding-bottom: 3px;
     }
+   
   }
 
   li {
     display: flex;
     list-style: none;
+  }
+
+  li:hover{
+    border-top: $border-header-active;
+    padding-bottom: 3px;
   }
 
   button {
@@ -334,3 +342,5 @@ menu {
     }
   }
 }
+
+

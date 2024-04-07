@@ -6,17 +6,25 @@ import { BrandLogo } from './svgindex';
 import MenuElement from './MenuElements';
 
 
-const MenuDiv = ({ menu }) => (
-  <menu id="menu">
-    <div className="brand-logo">
-      <BrandLogo />
-    </div>
-    <div className="items">
-      <MenuElement menu={menu} />
-      {/* <p className="phone">+(507) 830 2656</p> */}
-    </div>
-  </menu>
-);
+const MenuDiv = ({ menu }) => {
+  const scrollToTop = (event) => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+  return (
+    <menu id="menu">
+      <div className="brand-logo">
+        <BrandLogo onClick={scrollToTop}/>
+      </div>
+      <div className="items">
+        <MenuElement menu={menu} />
+        {/* <p className="phone">+(507) 830 2656</p> */}
+      </div>
+    </menu>
+  );
+}
 
 
 MenuDiv.propTypes = {

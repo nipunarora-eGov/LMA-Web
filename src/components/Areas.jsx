@@ -19,7 +19,7 @@ const Areas = ({ content }) => {
   });
 
   return (
-    <div className="practice-areas">
+    <div className="practice-areas" id="practices-goto">
       <div className="wrapper">
         <div>
           <h2>{content.title}</h2>

@@ -16,41 +16,42 @@ import AssociatesContainer from '../components/AssociatesContainer';
 
 export default function Home() {
   const [createFrom, setCreateFrom] = useState('');
-  const [language, setLanguage] = useState(localStorage.getItem('lang'));
+  const [language, setLanguage] = useState('en');
   const [content, setContent] = useState(languagesPack[language]);
+  
 
-  const formHandler = (arg) => {
-    setCreateFrom(arg.getAttribute('name'));
-    document.body.classList.add('pop-form');
-  };
+  // const formHandler = (arg) => {
+  //   setCreateFrom(arg.getAttribute('name'));
+  //   document.body.classList.add('pop-form');
+  // };
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    const btn = document.getElementsByClassName('page-menu-items');
-    Object.keys(btn).forEach((element) => {
-      btn[element].classList.remove('active');
-    });
-    btn[0].classList.add('active');
-    btn[2].classList.add('active');
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  //   const btn = document.getElementsByClassName('page-menu-items');
+  //   Object.keys(btn).forEach((element) => {
+  //     btn[element].classList.remove('active');
+  //   });
+  //   btn[0].classList.add('active');
+  //   btn[2].classList.add('active');
 
-    const header = document.getElementsByTagName('header')[0];
-    header.classList.remove('contact');
+  //   const header = document.getElementsByTagName('header')[0];
+  //   header.classList.remove('contact');
 
-    document.title = 'Lawmen Alliance';
+  //   document.title = 'Lawmen Alliance';
 
-    const frmBtns = document.getElementsByClassName('btns-section')[0]?.childNodes;
+  //   const frmBtns = document.getElementsByClassName('btns-section')[0]?.childNodes;
 
-    Object.keys(frmBtns).forEach((obj, index) => {
-      if ((index + 1) % 3 !== 0) {
-        frmBtns[obj].onclick = () => { formHandler(frmBtns[obj]); };
-      }
-    });
+  //   Object.keys(frmBtns).forEach((obj, index) => {
+  //     if ((index + 1) % 3 !== 0) {
+  //       frmBtns[obj].onclick = () => { formHandler(frmBtns[obj]); };
+  //     }
+  //   });
 
-    const contact = document.getElementsByName('getApointment');
-    Object.keys(contact).forEach((obj) => {
-      contact[obj].onclick = () => { formHandler(contact[obj]); };
-    });
-  }, []);
+  //   const contact = document.getElementsByName('getApointment');
+  //   Object.keys(contact).forEach((obj) => {
+  //     contact[obj].onclick = () => { formHandler(contact[obj]); };
+  //   });
+  // }, []);
 
 
   const {
@@ -59,7 +60,7 @@ export default function Home() {
       practiceAreas, mid, bottom, associates,
     }, forms, footer,
   } = content;
-
+  
   return (
     <div className="top-section">
       <ContactForm type={createFrom} data={forms} />

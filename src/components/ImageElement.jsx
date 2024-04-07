@@ -5,10 +5,10 @@ import img1 from '../media/slider/panama1.png';
 import img2 from '../media/slider/panama2.jpg';
 import img3 from '../media/slider/panama3.jpg';
 import img4 from '../media/slider/panama4.jpg';
-
+import img5 from '../media/slider/panama5.jpg'
 
 const ImageElement = ({ topSection }) => {
-  const imgGroup = [img1, img2, img3, img4];
+  const imgGroup = [img1, img2, img3,img5];
   const content = [];
   Object.keys(topSection).forEach((e, i) => {
     let className;

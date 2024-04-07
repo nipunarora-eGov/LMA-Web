@@ -18,6 +18,14 @@ export default function Header({
 }) {
   const menuParse = JSON.parse(menu);
 
+  const scrollToTop = (event) => {
+    console.log(event);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
   useEffect(() => {
     window.addEventListener('scroll', () => {
       const bar = document.getElementById('menu');
@@ -32,12 +40,12 @@ export default function Header({
 
   return (
     <header>
-      <div className="top">
+      <div className="top" id="top-header">
         <div>
           <div className="brand-info">
-            <p>Oceania Business Plaza, Panama</p>
+            <p>Lawmen Alliance, New Delhi</p>
             <hr />
-            <p>info@ndm.com.pa</p>
+            <p>info.lawmenalliance@gmail.com</p>
           </div>
           <Media />
           {/* <Languages setLanguage={setLanguage} /> */}
@@ -54,7 +62,7 @@ export default function Header({
           <Media />
         </div>
         <div className="phone-link">
-          <BrandLogo />
+          <BrandLogo onClick={scrollToTop}/>
           <MenuElement menu={menuParse} />
           <Languages setLanguage={setLanguage} />
         </div>
