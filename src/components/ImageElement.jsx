@@ -8,7 +8,11 @@ import img4 from '../media/slider/panama4.jpg';
 import img5 from '../media/slider/panama5.jpg'
 
 const ImageElement = ({ topSection }) => {
-  const imgGroup = [img1, img2, img3,img5];
+  // const imgGroup = [img1, img2, img3,img2];
+  const imgGroup = [img2, img2, img2,img2];
+
+  // const imgGroup = [img2];
+
   const content = [];
   Object.keys(topSection).forEach((e, i) => {
     let className;
@@ -22,7 +26,7 @@ const ImageElement = ({ topSection }) => {
           <p>{topSection[e].span}</p>
           <h2>{topSection[e].span}</h2>
           <div className="btn-container">
-            <button type="button" name="getApointment">{topSection[e].btn}</button>
+            {/* <button type="button" name="getApointment">{topSection[e].btn}</button> */}
           </div>
         </div>
       </div>,

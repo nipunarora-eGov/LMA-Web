@@ -8,7 +8,7 @@ import AreasBrief from './AreasBrief';
 export default function PracticeAreas({ brief, areas }) {
   return (
     <section className="practice-areas-section">
-      <AreasBrief content={brief.content} />
+      {/* <AreasBrief content={brief.content} /> */}
       <Areas content={areas.content} />
     </section>
   );

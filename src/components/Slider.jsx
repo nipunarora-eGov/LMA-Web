@@ -12,32 +12,32 @@ import ButtonsSection from './ButtonsSection';
 
 export default function TopSlider({ content, btns }) {
   useEffect(() => {
-    TimingSlides();
+    // TimingSlides();
     CurrentSlide(0);
 
     const e = document.getElementsByClassName('slider')[0];
     const swipe = new Swipe(e);
     swipe.onLeft(() => ShowSlides(0));
     swipe.onRight(() => ShowSlides(-2));
-    swipe.run();
+    // swipe.run();
   }, []);
 
   return (
     <section>
       <div className="slider">
         <ImageElement topSection={content} />
-        <div className="dots-container">
+        <div className="dots-container" style={{display:"none"}}>
           <button className="dot active" onClick={() => CurrentSlide(0)} type="button"> </button>
           <button className="dot" onClick={() => CurrentSlide(1)} type="button"> </button>
           <button className="dot" onClick={() => CurrentSlide(2)} type="button"> </button>
           <button className="dot" onClick={() => CurrentSlide(3)} type="button"> </button>
         </div>
       </div>
-      <div className="slider-changer">
+      <div className="slider-changer" style={{display:"none"}}>
         <button type="button" className="prev" onClick={() => ShowSlides(-2)}>&#10094;</button>
         <button type="button" className="next" onClick={() => ShowSlides(0)}>&#10095;</button>
       </div>
-      <ButtonsSection content={btns} />
+      {/* <ButtonsSection content={btns} /> */}
     </section>
   );
 }

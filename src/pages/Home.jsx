@@ -71,10 +71,10 @@ export default function Home() {
       />
       <Slider content={topSection} btns={btns} />
       <PracticeAreas brief={brief} areas={practiceAreas} />
-      <Mid data={mid} language={language} />
-      <Bottom data={bottom} />
+      {/* <Bottom data={bottom} /> */}
       <AssociatesContainer content={associates} />
-      <Footer content={footer} />
+      <Mid data={mid} language={language} />
+      {/* <Footer content={footer} /> */}
     </div>
   );
 }

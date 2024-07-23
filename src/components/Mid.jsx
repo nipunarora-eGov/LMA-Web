@@ -15,7 +15,7 @@ export default function Mid({
 }) {
   return (
     <section>
-      <ImgSection lang={language} />
+      {/* <ImgSection lang={language} /> */}
       <div className="contact-now wrapper">
         <BrandLogo />
         <p>{span1}</p>

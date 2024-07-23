@@ -41,15 +41,6 @@ export default function Header({
   return (
     <header>
       <div className="top" id="top-header">
-        <div>
-          <div className="brand-info">
-            <p>Lawmen Alliance, New Delhi</p>
-            <hr />
-            <p>info.lawmenalliance@gmail.com</p>
-          </div>
-          <Media />
-          {/* <Languages setLanguage={setLanguage} /> */}
-        </div>
         <MenuDiv menu={menuParse} />
       </div>
       <div className="phone-menu">
