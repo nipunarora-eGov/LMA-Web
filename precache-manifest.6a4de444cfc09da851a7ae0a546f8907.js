@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1dafb2f1797c6036eedc56fd4d7620b",
+    "revision": "4c614ad0f355580c447cf39632bf9070",
     "url": "/index.html"
   },
   {
-    "revision": "f9b9a0efa93f63362bc9",
-    "url": "/static/css/main.1b73dd39.chunk.css"
+    "revision": "8d1e8429aa51f8659127",
+    "url": "/static/css/main.888ed187.chunk.css"
   },
   {
     "revision": "2e47d63ca4e03341a17b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0b3c0c25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9b9a0efa93f63362bc9",
-    "url": "/static/js/main.1ebc6450.chunk.js"
+    "revision": "8d1e8429aa51f8659127",
+    "url": "/static/js/main.c1e8349e.chunk.js"
   },
   {
     "revision": "49e7d7f693b2d0a6206f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0d5f74db34aab37da60d2e18e443d2e1",
     "url": "/static/media/SuezOne-Regular.0d5f74db.ttf"
+  },
+  {
+    "revision": "81a2fbe1c3468a8ee85d74bea95ff837",
+    "url": "/static/media/abhijeet.81a2fbe1.jpg"
   },
   {
     "revision": "c0fe88b3a1c2e15e3fcf6ad6abe61ff3",
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c9f454279b8ab3da18c0b23bcdc930fc",
     "url": "/static/media/ismael.c9f45427.png"
+  },
+  {
+    "revision": "f5277615d2ef41bd90a95c40d59358d4",
+    "url": "/static/media/kshitij.f5277615.jpeg"
   },
   {
     "revision": "c91343f2987959114ab1a725ea5004c6",

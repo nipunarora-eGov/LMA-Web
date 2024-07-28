@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b73dd39.chunk.css",
-    "main.js": "/static/js/main.1ebc6450.chunk.js",
-    "main.js.map": "/static/js/main.1ebc6450.chunk.js.map",
+    "main.css": "/static/css/main.888ed187.chunk.css",
+    "main.js": "/static/js/main.c1e8349e.chunk.js",
+    "main.js.map": "/static/js/main.c1e8349e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.90cd0455.js",
     "runtime-main.js.map": "/static/js/runtime-main.90cd0455.js.map",
     "static/js/2.0b3c0c25.chunk.js": "/static/js/2.0b3c0c25.chunk.js",
     "static/js/2.0b3c0c25.chunk.js.map": "/static/js/2.0b3c0c25.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.87a64bef0eda34322d15675ac91e95ab.js": "/precache-manifest.87a64bef0eda34322d15675ac91e95ab.js",
+    "precache-manifest.6a4de444cfc09da851a7ae0a546f8907.js": "/precache-manifest.6a4de444cfc09da851a7ae0a546f8907.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1b73dd39.chunk.css.map": "/static/css/main.1b73dd39.chunk.css.map",
+    "static/css/main.888ed187.chunk.css.map": "/static/css/main.888ed187.chunk.css.map",
     "static/js/2.0b3c0c25.chunk.js.LICENSE.txt": "/static/js/2.0b3c0c25.chunk.js.LICENSE.txt",
     "static/media/contact.scss": "/static/media/SuezOne-Regular.0d5f74db.ttf",
+    "static/media/abhijeet.jpg": "/static/media/abhijeet.81a2fbe1.jpg",
     "static/media/amarelis.jpg": "/static/media/amarelis.c0fe88b3.jpg",
     "static/media/daniela.jpg": "/static/media/daniela.4159334f.jpg",
     "static/media/francisco.png": "/static/media/francisco.36bb1e8c.png",
@@ -20,6 +21,7 @@
     "static/media/gallery_02.jpg": "/static/media/gallery_02.28749e82.jpg",
     "static/media/info.png": "/static/media/info.cb0b212b.png",
     "static/media/ismael.png": "/static/media/ismael.c9f45427.png",
+    "static/media/kshitij.jpeg": "/static/media/kshitij.f5277615.jpeg",
     "static/media/areas.scss": "/static/media/list-type.c91343f2.svg",
     "static/media/mathew.jpg": "/static/media/mathew.e7d12b90.jpg",
     "static/media/melva.png": "/static/media/melva.2db32037.png",
@@ -38,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.90cd0455.js",
     "static/js/2.0b3c0c25.chunk.js",
-    "static/css/main.1b73dd39.chunk.css",
-    "static/js/main.1ebc6450.chunk.js"
+    "static/css/main.888ed187.chunk.css",
+    "static/js/main.c1e8349e.chunk.js"
   ]
 }
