@@ -13,16 +13,21 @@ export default function Mid({
     },
   }, language,
 }) {
+
+  const handleEmailClick = (id) => {
+    window.location.href = `mailto:${id}?subject=Subject&body=Body`;
+  };
+
   return (
     <section>
       {/* <ImgSection lang={language} /> */}
-      <div className="contact-now wrapper">
+      <div className="contact-now wrapper" id="contact-goto">
         <BrandLogo />
         <p>{span1}</p>
-        <h3 className="phone">{phone}</h3>
+        <h4 style={{cursor:"pointer"}} onClick={()=>handleEmailClick("singhvikramabhijeet@lawmenalliance.com")}>{phone}</h4>
         <p>{span2}</p>
-        <h4>{h4}</h4>
-        <button type="button" name="getApointment">{btn}</button>
+        <h4 style={{cursor:"pointer"}} onClick={()=>handleEmailClick("chhabrakshitij@lawmenalliance.com")}>{h4}</h4>
+        {/* <button type="button" name="getApointment">{btn}</button> */}
       </div>
     </section>
   );

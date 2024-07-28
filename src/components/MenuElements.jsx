@@ -19,7 +19,7 @@ const MenuElement = (arg) => {
     },
     {
       ref:"#associates-goto",
-      content:"People",
+      content:"About Us",
       isActive:false
     },
     {

@@ -16,7 +16,7 @@ if (!language) {
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/contact" exact component={Contact} />
+      {/* <Route path="/contact" exact component={Contact} /> */}
       <Route path="/" exact component={Home} />
       <Route component={NotFound} />
     </Switch>

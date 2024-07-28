@@ -2,7 +2,7 @@
   "en": {
     "header": {
       "menu": {
-        "people":"People",
+        "people":"About",
         "home": "Home",
         "about": "About",
         "contact": "Contact"
@@ -88,10 +88,10 @@
           "image2": ""
         },
         "content": {
-          "span1": "call us 24/7",
-          "phone": "+(507) 8302656 & + 1 678 999 2694",
+          "span1": "Email Us at",
+          "phone": "singhvikramabhijeet@lawmenalliance.com",
           "span2": "OR",
-          "h4": "Schedule a Free Consultation",
+          "h4": "chhabrakshitij@lawmenalliance.com",
           "btn": "make an appointment"
         }
       },
@@ -104,14 +104,14 @@
       },
       "associates": [
         {
-          "photo": "nisim.jpg",
+          "photo": "abhijeet.jpg",
           "name": "Abhijeet",
           "lastname": "Singh", 
           "title":"Founder", 
           "experties": ""
         },
         {
-          "photo": "melva.png",
+          "photo": "kshitij.jpeg",
           "name": "Kshitij",
           "lastname": "Chhabra", 
           "title":"Co Founder", 

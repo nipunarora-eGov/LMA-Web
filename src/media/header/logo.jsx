@@ -16,6 +16,7 @@ const BrandLogo = () => (
       docname="logo.svg"
       viewBox="0 0 870 265"
       data-name="Layer 1"
+      fill='white'
     >
       <metadata id="metadata110" />
       <namedview
