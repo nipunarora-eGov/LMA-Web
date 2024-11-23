@@ -22,7 +22,7 @@ export default function Mid({
     <section>
       {/* <ImgSection lang={language} /> */}
       <div className="contact-now wrapper" id="contact-goto">
-        <BrandLogo />
+        {/* <BrandLogo /> */}
         <p>{span1}</p>
         <h4 style={{cursor:"pointer"}} onClick={()=>handleEmailClick("singhvikramabhijeet@lawmenalliance.com")}>{phone}</h4>
         <p>{span2}</p>

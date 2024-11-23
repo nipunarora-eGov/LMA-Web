@@ -235,7 +235,7 @@ const BrandLogo = () => (
       <title
         id="title47"
       >
-        Logo NDM
+        Lawmen Alliance Logo
       </title>
       <path
         id="path49"

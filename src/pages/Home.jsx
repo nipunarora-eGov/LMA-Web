@@ -12,7 +12,7 @@ import Mid from '../components/Mid';
 import Bottom from '../components/Bottom';
 import Footer from '../components/Footer';
 import AssociatesContainer from '../components/AssociatesContainer';
-
+import FooterComp from '../components/FooterComp';
 
 export default function Home() {
   const [createFrom, setCreateFrom] = useState('');
@@ -75,6 +75,7 @@ export default function Home() {
       <AssociatesContainer content={associates} />
       <Mid data={mid} language={language} />
       {/* <Footer content={footer} /> */}
+      <FooterComp />
     </div>
   );
 }

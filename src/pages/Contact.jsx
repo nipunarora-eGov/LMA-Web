@@ -36,7 +36,7 @@ export default function Contact() {
     const header = document.getElementsByTagName('header')[0];
     header.classList.add('contact');
 
-    document.title = 'NDM Law Firm | Contact';
+    document.title = 'Lawmen Alliance | Contact';
   });
 
 
