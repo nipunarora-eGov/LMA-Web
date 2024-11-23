@@ -50,12 +50,12 @@ export default function Header({
             <div className="bar2" />
             <div className="bar3" />
           </button>
-          <Media />
+          {/* <Media /> */}
         </div>
         <div className="phone-link">
-          <BrandLogo onClick={scrollToTop}/>
+          {/* <BrandLogo onClick={scrollToTop}/> */}
           <MenuElement menu={menuParse} />
-          <Languages setLanguage={setLanguage} />
+          {/* <Languages setLanguage={setLanguage} /> */}
         </div>
       </div>
     </header>

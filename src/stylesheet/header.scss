@@ -278,7 +278,7 @@ menu {
   height: calc(100% - 50px);
   text-transform: capitalize;
   width: 250px;
-
+  max-height: 10rem;
   >.languages {
     padding-left: 1rem;
   }
